@@ -1,0 +1,71 @@
+
+package javaapplication1;
+import  java.util.Scanner;
+public class JavaApplication1 {
+    public static void main ( String []args ){
+     
+      Scanner scan = new Scanner(System.in);   
+        System.out.println("penilaian");
+        
+        int nilai_1, nilai_2, nilai_3, nilai_4, nilai_5;
+        double nilaiutama;
+        
+        System.out.print("masukan nilai Mat:");
+        nilai_1=scan.nextInt();
+        
+        System.out.print("masukan nilai Ipa:");
+        nilai_2=scan.nextInt();
+        
+        System.out.print("masukan nilai RPL:");
+        nilai_3=scan.nextInt();
+        
+        System.out.print("masukan nilai TKJ:");
+        nilai_4=scan.nextInt();
+         
+        System.out.print("masukan nilai Bing:");
+        nilai_5=scan.nextInt();
+        
+      nilaiutama=(nilai_1+ nilai_2+nilai_3+nilai_4+nilai_5)/5;
+      
+      if(nilaiutama >= 96 ){
+          System.out.println("nilai mu A/ sangat baik");
+      }
+      
+      else if(nilaiutama >= 91 ){
+          System.out.println("nilai mu A-/ sangat baik");
+      }
+      
+      else if(nilaiutama >= 86 ){
+          System.out.println("nilai mu B+/ baik");
+      }
+      
+      else if(nilaiutama >= 81 ){
+          System.out.println("nilai mu B/ baik");
+      }
+      
+      else if(nilaiutama >= 75 ){
+          System.out.println("nilai mu B-/ baik");
+      }
+      
+      else if(nilaiutama >= 70 ){
+          System.out.println("nilai mu C+/ cukup");
+      }
+      
+      else if(nilaiutama >= 65 ){
+          System.out.println("nilai mu C/ cukup");
+      }
+      
+      else if(nilaiutama >= 60 ){
+          System.out.println("nilai mu C-/ baik");
+      }
+      
+      else if(nilaiutama >= 55 ){
+          System.out.println("nilai mu D+/ kurang");
+      }
+      
+      else if(nilaiutama >= 0 ){
+          System.out.println("nilai mu D/ kurang");
+      }
+      
+      
+      
