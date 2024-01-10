@@ -2,8 +2,6 @@ public class UjiCoba {
     public static void main(String[] args) {
    
         Bus busMini=new Bus(10);
-        busMini.getPassword(40);
-        busMini.getPassword(90);
         busMini.cetak();
 
         busMini.pluspenumpang(1);

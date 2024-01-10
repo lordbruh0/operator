@@ -20,13 +20,6 @@ public class Bus {
         }
     }
 
-    public void getPassword(int password) {
-        if (password == 90) {
-            System.out.println("password benar");
-        } else {
-            System.out.println("pass salah");
-        }
-    }
 
     public void plusBerat(double berat) {
         beratTotal += berat;
