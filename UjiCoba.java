@@ -1,32 +1,30 @@
 public class UjiCoba {
     public static void main(String[] args) {
    
-        Bus busMini=new Bus(10);
+        Bus busMini=new Bus(20);
         busMini.cetak();
 
-        busMini.pluspenumpang(1);
+        busMini.pluspenumpang(5);
         busMini.plusBerat(66.4);
-        busMini.cetak();
-        
-        busMini.pluspenumpang(1);
-        busMini.plusBerat(87.9);
-        busMini.cetak();
-
-
-        busMini.pluspenumpang(1);
-        busMini.plusBerat(10.6);
-        busMini.cetak();
-
-        busMini.pluspenumpang(1);
-        busMini.plusBerat(49.6);
+        busMini.plusBerat(40);
+        busMini.plusBerat(50);
+        busMini.plusBerat(60);
+        busMini.plusBerat(34);
         busMini.cetak();
 
 
-        busMini.pluspenumpang(1);
-        busMini.plusBerat(100.6);
+        busMini.pluspenumpang(8);
+        busMini.plusBerat(61.4);
+        busMini.plusBerat(56);
+        busMini.plusBerat(58);
+        busMini.plusBerat(69);
+        busMini.plusBerat(78);
+        busMini.plusBerat(47);
+        busMini.plusBerat(50 );
         busMini.cetak();
         
         busMini.cetak2();
     }
 }
 
+//hello world//

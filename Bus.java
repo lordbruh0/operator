@@ -20,14 +20,18 @@ public class Bus {
         }
     }
 
+    public double getPenumpang(){   //Tambahan
+        return penumpang;
+    }
 
-    public void plusBerat(double berat) {
+
+    public void plusBerat(double berat) {  //Tambahan
         beratTotal += berat;
     }
 
     public double getAverage() {
        
-            return beratTotal / penumpang;        
+            return beratTotal / getPenumpang();  //Tambahan
         }
 
 
@@ -37,6 +41,7 @@ public class Bus {
         System.out.println("Berat sekarang = " + beratTotal);
     }
     public void cetak2(){
+        
         System.out.println("Berat rata rata = " + getAverage());
     }
 }
